@@ -1,0 +1,23 @@
+{
+  "name": "line-chatgpt-bot",
+  "description": "A simple LINE group chatbot powered by ChatGPT (OpenAI).",
+  "repository": "https://github.com/your-repo/line-chatgpt-bot",
+  "keywords": ["python", "flask", "line", "chatgpt", "bot"],
+  "env": {
+    "LINE_ACCESS_TOKEN": {
+      "description": "LINE Messaging API Channel access token",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": []
+}
